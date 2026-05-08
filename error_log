@@ -1,0 +1,4 @@
+[05-Mar-2025 05:29:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/dentist3/public_html/wp-content/themes/waxom/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/dentist3/public_html/wp-content/themes/waxom/index.php on line 2
