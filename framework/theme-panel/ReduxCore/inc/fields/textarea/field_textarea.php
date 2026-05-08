@@ -30,6 +30,11 @@
     if ( ! class_exists( 'ReduxFramework_textarea' ) ) {
         class ReduxFramework_textarea {
 
+        public $parent;
+        public $field;
+        public $value;
+
+
             /**
              * Field Constructor.
              *

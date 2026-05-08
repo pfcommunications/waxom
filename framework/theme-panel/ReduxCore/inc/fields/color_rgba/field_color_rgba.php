@@ -34,6 +34,11 @@ if( !class_exists( 'ReduxFramework_color_rgba' ) ) {
      * @since       1.0.0
      */
     class ReduxFramework_color_rgba {
+
+        public $parent;
+        public $field;
+        public $value;
+
     
       /**
        * Class Constructor. Defines the args for the extions class
