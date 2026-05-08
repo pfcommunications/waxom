@@ -352,9 +352,9 @@ function waxom_print_page_title() {
 	
 	<?php 
 	
-		$image_entete = get_field('bg_entete'); 
+		$image_entete = get_field('bg_entete');
 		if( !empty($image_entete) ){
-			$url_bg_header = $image_entete['url'];
+			$url_bg_header = is_array($image_entete) ? $image_entete['url'] : $image_entete;
 		}
 	
 	?>
