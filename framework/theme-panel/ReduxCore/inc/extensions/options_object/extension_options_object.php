@@ -33,11 +33,6 @@
          */
         class ReduxFramework_Extension_options_object {
 
-        public $parent;
-        public $field;
-        public $value;
-
-
             // Protected vars
             protected $parent;
             public $extension_url;
