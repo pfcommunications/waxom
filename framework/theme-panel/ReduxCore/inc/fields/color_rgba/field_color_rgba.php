@@ -50,7 +50,7 @@ if( !class_exists( 'ReduxFramework_color_rgba' ) ) {
        * @param       array $parent Parent object.
        * @return      void
        */
-        public function __construct( $field = array(), $value ='', $parent ) {
+        public function __construct( $field, $value, $parent ) {
 
             // Set required variables
             $this->parent   = $parent;
